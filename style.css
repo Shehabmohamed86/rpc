@@ -1,0 +1,35 @@
+body {
+  background-color: gray;
+}
+.sellections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+button{
+  cursor: pointer;
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 30px;
+  border: none;
+  padding: 10px;
+  transition: all .2s ease-in-out;
+}
+button:hover {
+  transform: scale(1.1);
+}
+.players {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.player {
+  margin-right: 70px;
+}
+
